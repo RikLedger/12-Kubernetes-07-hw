@@ -96,11 +96,11 @@ PV перешел в состояние Failed, т.к. контроллер PV �
 
 После удаления PV, файл в директории `/data/pvc-first` останется на месте из-за особенностей работы контроллера PV с hostPath. В случае если в манифесте PV политика persistentVolumeReclaimPolicy будет установлена в Recycle, то файл будет удален.
 
-6. Ссылка на манифест Deployment - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/deployment.yaml
+6. Ссылка на манифест Deployment - https://github.com/RikLedger/12-Kubernetes-07-hw/blob/main/SRC%20/deployment.yaml
 
-   Ссылка на манифест PV - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/pv.yaml
+   Ссылка на манифест PV - https://github.com/RikLedger/12-Kubernetes-07-hw/blob/main/SRC%20/pv.yaml
 
-   Ссылка на манифест PVC - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/pvc.yaml
+   Ссылка на манифест PVC - https://github.com/RikLedger/12-Kubernetes-07-hw/blob/main/SRC%20/pvc.yaml
 
 ------
 
@@ -142,6 +142,6 @@ PV перешел в состояние Failed, т.к. контроллер PV �
 
 Это говорит о том, что NFS работает и из пода файл доступен для чтения и записи.
 
-4. Ссылка на манифест Deployment - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/deployment_nfs.yaml
+4. Ссылка на манифест Deployment - https://github.com/RikLedger/12-Kubernetes-07-hw/blob/main/SRC%20/deployment_nfs.yaml
 
-   Ссылка на манифест PVC - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/pvc_nfs.yaml
+   Ссылка на манифест PVC - https://github.com/RikLedger/12-Kubernetes-07-hw/blob/main/SRC%20/pvc_nfs.yaml
